@@ -1,0 +1,42 @@
+{
+  "per_category": {
+    "ce": {
+      "correct": 5,
+      "total": 6,
+      "accuracy": 0.8333333333333334
+    },
+    "gk": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "chat": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0
+    }
+  },
+  "overall": {
+    "correct": 5,
+    "total": 6,
+    "accuracy": 0.8333333333333334
+  },
+  "avg_latency_ms": 8283.83333333477,
+  "total_cost_usd": 0.04364,
+  "avg_cost_usd": 0.007273333333333333,
+  "confusion_matrix": {
+    "ce->ce": 5,
+    "ce->chat": 1
+  },
+  "misclassified": [
+    {
+      "id": 68,
+      "query": "อธิบายมุมพระอาทิตย์ ตลอดทั้งปี สั้นๆให้หน่อย ว่าช่วงไหนอ้อมใต้ อ้อมเหนือ",
+      "label": "ce",
+      "predicted": "chat",
+      "cost": 0.00758125,
+      "heuristic_result": "ce",
+      "forced_llm_result": "chat"
+    }
+  ]
+}

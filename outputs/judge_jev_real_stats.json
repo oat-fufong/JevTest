@@ -1,0 +1,31 @@
+{
+  "per_category": {
+    "ce": {
+      "correct": 6,
+      "total": 6,
+      "accuracy": 1.0
+    },
+    "gk": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "chat": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": 0
+    }
+  },
+  "overall": {
+    "correct": 6,
+    "total": 6,
+    "accuracy": 1.0
+  },
+  "avg_latency_ms": 588.5000000028716,
+  "total_cost_usd": 0.000145152,
+  "avg_cost_usd": 2.4192e-05,
+  "confusion_matrix": {
+    "ce->ce": 6
+  },
+  "misclassified": []
+}

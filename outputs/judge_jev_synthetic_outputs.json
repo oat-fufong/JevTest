@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "query": "แผง360 มีVOCเท่าไหร่ และ มีมารตรฐานอะไรบ้าง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 625.0,
+    "predicted": "ce",
+    "cost": 2.394e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 2,
+    "query": "แผงPV module ผลิตจากอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 641.0000000032596,
+    "predicted": "ce",
+    "cost": 2.3058e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 3,
+    "query": "ตอนนี้แผงมีกี่ชนิด",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 687.0000000053551,
+    "predicted": "ce",
+    "cost": 2.31e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 4,
+    "query": "Inverter HUAWEI SUN2000-36KTL-M3 สามารถใช้งานร่วมกับ Smart Logger 1000 ได้หรือไห",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 546.9999999913853,
+    "predicted": "ce",
+    "cost": 2.5746e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 5,
+    "query": "ควรทำยังไงให้ค่า PR ผ่านเกณฑ์",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 735.000000015134,
+    "predicted": "ce",
+    "cost": 2.3478e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 6,
+    "query": "คาบน้ำมันเตาที่เกาะสะสมอยู่บนแผงโซลาร์เซลล์ ควรกำจัดคาบดังกล่าวยังไง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 625.0,
+    "predicted": "ce",
+    "cost": 2.52e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 7,
+    "query": "ึคู่มือ Inverter HUAWEI",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 608.9999999967404,
+    "predicted": "ce",
+    "cost": 2.2932e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 8,
+    "query": "ค่าความสูญเสียผ่านใน Inverter อยู่ที่เท่าใด",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 562.9999999946449,
+    "predicted": "ce",
+    "cost": 2.3898e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 9,
+    "query": "ทำไม Power Optimizer SolarEdge ชอบเสียบ่อย ๆ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 562.0000000053551,
+    "predicted": "ce",
+    "cost": 2.3394e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 10,
+    "query": "ค่า Irradiance คือค่าอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 641.0000000032596,
+    "predicted": "ce",
+    "cost": 2.2974e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 11,
+    "query": "แปลง Irradiance W/m2 เป็น W",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 562.0000000053551,
+    "predicted": "ce",
+    "cost": 2.2848e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 12,
+    "query": "ค่า Irradiance หน่วยเป็น W/m2 ห่างกับค่า PV Output หน่วยเป็น W เท่าใด จึงจะมีผลค",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 625.0,
+    "predicted": "ce",
+    "cost": 2.5116e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  }
+]

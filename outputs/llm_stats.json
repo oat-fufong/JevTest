@@ -1,0 +1,71 @@
+{
+  "per_category": {
+    "ce": {
+      "correct": 97,
+      "total": 102,
+      "accuracy": 0.9509803921568627
+    },
+    "gk": {
+      "correct": 8,
+      "total": 8,
+      "accuracy": 1.0
+    },
+    "chat": {
+      "correct": 25,
+      "total": 25,
+      "accuracy": 1.0
+    }
+  },
+  "overall": {
+    "correct": 130,
+    "total": 135,
+    "accuracy": 0.9629629629629629
+  },
+  "avg_latency_ms": 946.7555555549485,
+  "total_cost_usd": 0.0244266,
+  "avg_cost_usd": 0.00018093777777777778,
+  "confusion_matrix": {
+    "ce->ce": 97,
+    "ce->chat": 4,
+    "ce->gk": 1,
+    "chat->chat": 25,
+    "gk->gk": 8
+  },
+  "misclassified": [
+    {
+      "id": 3,
+      "query": "ตอนนี้แผงมีกี่ชนิด",
+      "label": "ce",
+      "predicted": "chat",
+      "cost": 0.0001792
+    },
+    {
+      "id": 15,
+      "query": "Theoretical yield คือ ค่าอะไร",
+      "label": "ce",
+      "predicted": "chat",
+      "cost": 0.0001783
+    },
+    {
+      "id": 68,
+      "query": "อธิบายมุมพระอาทิตย์ ตลอดทั้งปี สั้นๆให้หน่อย ว่าช่วงไหนอ้อมใต้ อ้อมเหนือ",
+      "label": "ce",
+      "predicted": "chat",
+      "cost": 0.0001843
+    },
+    {
+      "id": 90,
+      "query": "ขอคู่มือการใช้งาน Function line ของ CPFหน่อยครับ",
+      "label": "ce",
+      "predicted": "gk",
+      "cost": 0.0001801
+    },
+    {
+      "id": 124,
+      "query": "ส่วนใหญ่เกิดได้ทั้งวัน หรือเฉพาะช่วงเวลาไหน",
+      "label": "ce",
+      "predicted": "chat",
+      "cost": 0.0001801
+    }
+  ]
+}

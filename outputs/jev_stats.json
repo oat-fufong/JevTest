@@ -1,0 +1,167 @@
+{
+  "per_category": {
+    "ce": {
+      "correct": 100,
+      "total": 102,
+      "accuracy": 0.9803921568627451
+    },
+    "gk": {
+      "correct": 6,
+      "total": 8,
+      "accuracy": 0.75
+    },
+    "chat": {
+      "correct": 24,
+      "total": 25,
+      "accuracy": 0.96
+    }
+  },
+  "overall": {
+    "correct": 130,
+    "total": 135,
+    "accuracy": 0.9629629629629629
+  },
+  "avg_latency_ms": 753.9333333330297,
+  "total_cost_usd": 0.003206028,
+  "avg_cost_usd": 2.3748355555555556e-05,
+  "confusion_matrix": {
+    "ce->ce": 100,
+    "ce->chat": 2,
+    "chat->ce": 1,
+    "chat->chat": 24,
+    "gk->ce": 2,
+    "gk->gk": 6
+  },
+  "misclassified": [
+    {
+      "id": 59,
+      "query": "ขอ spec inverter โครงการอ่างทอง 1",
+      "label": "gk",
+      "note": "project-specific data",
+      "predicted": "ce",
+      "answer": {
+        "type": "choice",
+        "choice": "ce",
+        "probabilities": {
+          "chat": 0,
+          "gk": 0.43,
+          "ce": 0.57
+        },
+        "confidence": 0.35
+      },
+      "cost": 2.331e-05,
+      "usage": {
+        "input_tokens": 555,
+        "output_tokens": 39,
+        "cost": 2.331e-05
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "response_id": "gen-dec-1790625175-c9QufunubaJBQXFURC7x",
+      "provider": "TypeSafe"
+    },
+    {
+      "id": 68,
+      "query": "อธิบายมุมพระอาทิตย์ ตลอดทั้งปี สั้นๆให้หน่อย ว่าช่วงไหนอ้อมใต้ อ้อมเหนือ",
+      "label": "ce",
+      "note": "technical knowledge",
+      "predicted": "chat",
+      "answer": {
+        "type": "choice",
+        "choice": "chat",
+        "probabilities": {
+          "gk": 0.02,
+          "chat": 0.62,
+          "ce": 0.36
+        },
+        "confidence": 0.43
+      },
+      "cost": 2.5368e-05,
+      "usage": {
+        "input_tokens": 604,
+        "output_tokens": 39,
+        "cost": 2.5368e-05
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "response_id": "gen-dec-1790625182-YxoIfLxb8PVOoQ87r7Px",
+      "provider": "TypeSafe"
+    },
+    {
+      "id": 72,
+      "query": "หมายถึงการเติมลมถังอัดแรงดันในระบบปั๊มน้ำหมายถึงการเติมลมถังอัดแรงดันในระบบปั๊มน้ำ",
+      "label": "chat",
+      "note": "non-solar continuation",
+      "predicted": "ce",
+      "answer": {
+        "type": "choice",
+        "choice": "ce",
+        "probabilities": {
+          "gk": 0,
+          "chat": 0.41,
+          "ce": 0.59
+        },
+        "confidence": 0.37
+      },
+      "cost": 2.5788e-05,
+      "usage": {
+        "input_tokens": 614,
+        "output_tokens": 39,
+        "cost": 2.5788e-05
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "response_id": "gen-dec-1790625185-cJlvvm8krHyRd8lwcHq8",
+      "provider": "TypeSafe"
+    },
+    {
+      "id": 83,
+      "query": "daily report โหลดข้อมูลกราฟขึ้นErrorเกิดจากสาเหตุใด",
+      "label": "gk",
+      "note": "monitoring system issue (maintenance log platform)",
+      "predicted": "ce",
+      "answer": {
+        "type": "choice",
+        "choice": "ce",
+        "probabilities": {
+          "chat": 0,
+          "ce": 1,
+          "gk": 0
+        },
+        "confidence": 1
+      },
+      "cost": 2.394e-05,
+      "usage": {
+        "input_tokens": 570,
+        "output_tokens": 39,
+        "cost": 2.394e-05
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "response_id": "gen-dec-1790625194-j3t5zsYsYeQMu9zowH8y",
+      "provider": "TypeSafe"
+    },
+    {
+      "id": 120,
+      "query": "มาตรฐานค่าอุณหภูมิของ Thermoscan ควรต่างกันไม่เกินเท่าไร",
+      "label": "ce",
+      "note": "testing standard",
+      "predicted": "chat",
+      "answer": {
+        "type": "choice",
+        "choice": "chat",
+        "probabilities": {
+          "gk": 0,
+          "ce": 0.43,
+          "chat": 0.57
+        },
+        "confidence": 0.35
+      },
+      "cost": 2.4402e-05,
+      "usage": {
+        "input_tokens": 581,
+        "output_tokens": 39,
+        "cost": 2.4402e-05
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "response_id": "gen-dec-1790625222-pCy4XaeORkXI4qFvB3KY",
+      "provider": "TypeSafe"
+    }
+  ]
+}

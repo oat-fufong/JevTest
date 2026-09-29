@@ -1,0 +1,6 @@
+[submodule "ragsha-agent"]
+	path = ragsha-agent
+	url = https://github.com/FufongLabs/ragsha-agent.git
+[submodule "ragsha-deploy"]
+	path = ragsha-deploy
+	url = https://github.com/FufongLabs/ragsha-deploy.git

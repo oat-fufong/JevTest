@@ -1,0 +1,3782 @@
+[
+  {
+    "id": 1,
+    "query": "แผง360 มีVOCเท่าไหร่ และ มีมารตรฐานอะไรบ้าง",
+    "label": "ce",
+    "note": "panel voltage spec + standards",
+    "correct": true,
+    "elapsed_ms": 1155.9999999590218,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.01,
+        "ce": 0.99,
+        "chat": 0
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.394e-05,
+    "usage": {
+      "input_tokens": 570,
+      "output_tokens": 39,
+      "cost": 2.394e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625132-gwpXKxka1c9HTx8v12O4",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 2,
+    "query": "แผงPV module ผลิตจากอะไร",
+    "label": "ce",
+    "note": "panel material composition",
+    "correct": true,
+    "elapsed_ms": 1000.0,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.99,
+        "chat": 0,
+        "gk": 0.01
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.3058e-05,
+    "usage": {
+      "input_tokens": 549,
+      "output_tokens": 39,
+      "cost": 2.3058e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625133-OVxPb8X5DUPiJoAsjD82",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 3,
+    "query": "ตอนนี้แผงมีกี่ชนิด",
+    "label": "ce",
+    "note": "panel types overview",
+    "correct": true,
+    "elapsed_ms": 844.0000000409782,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.09,
+        "gk": 0.12,
+        "ce": 0.79
+      },
+      "confidence": 0.68
+    },
+    "cost": 2.31e-05,
+    "usage": {
+      "input_tokens": 550,
+      "output_tokens": 39,
+      "cost": 2.31e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625134-IUfsx4RvC0CPwjj11KXk",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 4,
+    "query": "Inverter HUAWEI SUN2000-36KTL-M3 สามารถใช้งานร่วมกับ Smart Logger 1000 ได้หรือไหม หรือต้อง Setting อะไรเพิ่มเติม",
+    "label": "ce",
+    "note": "product compatibility + settings",
+    "correct": true,
+    "elapsed_ms": 843.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.5746e-05,
+    "usage": {
+      "input_tokens": 613,
+      "output_tokens": 39,
+      "cost": 2.5746e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625135-ZpW2rIe5VWYk2YArKIyG",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 5,
+    "query": "ควรทำยังไงให้ค่า PR ผ่านเกณฑ์",
+    "label": "ce",
+    "note": "how-to improve PR (procedure)",
+    "correct": true,
+    "elapsed_ms": 795.9999999729916,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.04,
+        "chat": 0.07,
+        "ce": 0.89
+      },
+      "confidence": 0.83
+    },
+    "cost": 2.3478e-05,
+    "usage": {
+      "input_tokens": 559,
+      "output_tokens": 39,
+      "cost": 2.3478e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625136-aYuiuKRzbFA6CkHDh4ZO",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 6,
+    "query": "คาบน้ำมันเตาที่เกาะสะสมอยู่บนแผงโซลาร์เซลล์ ควรกำจัดคาบดังกล่าวยังไง",
+    "label": "ce",
+    "note": "cleaning procedure",
+    "correct": true,
+    "elapsed_ms": 750.0,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "gk": 0,
+        "chat": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.52e-05,
+    "usage": {
+      "input_tokens": 600,
+      "output_tokens": 39,
+      "cost": 2.52e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625136-wYIuaop8R97P9tYBO5j4",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 7,
+    "query": "ึคู่มือ Inverter HUAWEI",
+    "label": "ce",
+    "note": "manual request",
+    "correct": true,
+    "elapsed_ms": 704.0000000270084,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.2932e-05,
+    "usage": {
+      "input_tokens": 546,
+      "output_tokens": 39,
+      "cost": 2.2932e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625137-D3RO2sd8klpyM0aOdDWr",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 8,
+    "query": "ค่าความสูญเสียผ่านใน Inverter อยู่ที่เท่าใด",
+    "label": "ce",
+    "note": "inverter efficiency spec",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0.05,
+        "ce": 0.95
+      },
+      "confidence": 0.93
+    },
+    "cost": 2.3898e-05,
+    "usage": {
+      "input_tokens": 569,
+      "output_tokens": 39,
+      "cost": 2.3898e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625138-S43tsCbDByfCidfmJ1lu",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 9,
+    "query": "ทำไม Power Optimizer SolarEdge ชอบเสียบ่อย ๆ",
+    "label": "ce",
+    "note": "failure mode explanation (could be gk with failure data but asking 'why' = technical explanation)",
+    "correct": true,
+    "elapsed_ms": 672.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.01,
+        "chat": 0,
+        "ce": 0.99
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3394e-05,
+    "usage": {
+      "input_tokens": 557,
+      "output_tokens": 39,
+      "cost": 2.3394e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625139-Flh1MDVHozsHOK8rW8XP",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 10,
+    "query": "ค่า Irradiance คือค่าอะไร",
+    "label": "ce",
+    "note": "technical definition",
+    "correct": true,
+    "elapsed_ms": 686.9999999762513,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.2974e-05,
+    "usage": {
+      "input_tokens": 547,
+      "output_tokens": 39,
+      "cost": 2.2974e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625139-RYUVZRVuY2jfdsJuMH6X",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 11,
+    "query": "แปลง Irradiance W/m2 เป็น W",
+    "label": "ce",
+    "note": "technical calculation",
+    "correct": true,
+    "elapsed_ms": 859.9999999860302,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.01,
+        "ce": 0.97,
+        "gk": 0.02
+      },
+      "confidence": 0.96
+    },
+    "cost": 2.2848e-05,
+    "usage": {
+      "input_tokens": 544,
+      "output_tokens": 39,
+      "cost": 2.2848e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625140-PeNaiCcXH0t2Obyzl3pJ",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 12,
+    "query": "ค่า Irradiance หน่วยเป็น W/m2 ห่างกับค่า PV Output หน่วยเป็น W เท่าใด จึงจะมีผลค่า PR ต่ำ",
+    "label": "ce",
+    "note": "technical analysis",
+    "correct": true,
+    "elapsed_ms": 842.9999999934807,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.91,
+        "gk": 0.09,
+        "chat": 0
+      },
+      "confidence": 0.87
+    },
+    "cost": 2.5116e-05,
+    "usage": {
+      "input_tokens": 598,
+      "output_tokens": 39,
+      "cost": 2.5116e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625141-GuMxIuvQzTNwjCDorI2v",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 13,
+    "query": "Generated power คือ ค่าอะไร",
+    "label": "ce",
+    "note": "technical definition",
+    "correct": true,
+    "elapsed_ms": 750.0,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0.01,
+        "ce": 0.99
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.2806e-05,
+    "usage": {
+      "input_tokens": 543,
+      "output_tokens": 39,
+      "cost": 2.2806e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625142-nGaBdt4uwz78Q8e3iJgN",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 14,
+    "query": "System efficiency คือ ค่าอะไร",
+    "label": "ce",
+    "note": "technical definition",
+    "correct": true,
+    "elapsed_ms": 688.0000000237487,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 0.99,
+        "gk": 0.01
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.2806e-05,
+    "usage": {
+      "input_tokens": 543,
+      "output_tokens": 39,
+      "cost": 2.2806e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625142-6J6dynpr1b5FBrz2PGea",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 15,
+    "query": "Theoretical yield คือ ค่าอะไร",
+    "label": "ce",
+    "note": "technical definition",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.01,
+        "ce": 0.75,
+        "chat": 0.24
+      },
+      "confidence": 0.62
+    },
+    "cost": 2.289e-05,
+    "usage": {
+      "input_tokens": 545,
+      "output_tokens": 39,
+      "cost": 2.289e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625143-CkcONDmyOhd24GxPjmVe",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 16,
+    "query": "Actual yield คือ ค่าอะไร",
+    "label": "ce",
+    "note": "technical definition",
+    "correct": true,
+    "elapsed_ms": 813.0000000237487,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.05,
+        "chat": 0.04,
+        "ce": 0.91
+      },
+      "confidence": 0.87
+    },
+    "cost": 2.2806e-05,
+    "usage": {
+      "input_tokens": 543,
+      "output_tokens": 39,
+      "cost": 2.2806e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625144-HuMZPImzTas7hOyViC8l",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 17,
+    "query": "สายPV 4 sq.mm ทดแรงดันได้เท่าไหร่",
+    "label": "ce",
+    "note": "cable voltage spec",
+    "correct": true,
+    "elapsed_ms": 843.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "gk": 0,
+        "chat": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.352e-05,
+    "usage": {
+      "input_tokens": 560,
+      "output_tokens": 39,
+      "cost": 2.352e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625145-B3DQfgXBYnhZJ9l4WwAa",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 18,
+    "query": "สายPV 4 sq.mm ทนกระแสได้มากที่สุดเท่าไหร่",
+    "label": "ce",
+    "note": "cable current spec",
+    "correct": true,
+    "elapsed_ms": 702.9999999795109,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 0.99,
+        "gk": 0.01
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3856e-05,
+    "usage": {
+      "input_tokens": 568,
+      "output_tokens": 39,
+      "cost": 2.3856e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625145-KLWUxVU6pcGx7FUzOwqt",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 19,
+    "query": "optimizer แรงดันขาออก ออก80V ตลอดไหม",
+    "label": "ce",
+    "note": "product operation",
+    "correct": true,
+    "elapsed_ms": 687.0000000344589,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 0.99,
+        "gk": 0.01
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.352e-05,
+    "usage": {
+      "input_tokens": 560,
+      "output_tokens": 39,
+      "cost": 2.352e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625146-VeCC7LPBkxQ2Fd4EMHn9",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 20,
+    "query": "Optimizer แรงดันทั้ง String ออกไม่ถึง 80 V เกี่ยวกับแสงไหม",
+    "label": "ce",
+    "note": "troubleshooting",
+    "correct": true,
+    "elapsed_ms": 859.9999999860302,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.415e-05,
+    "usage": {
+      "input_tokens": 575,
+      "output_tokens": 39,
+      "cost": 2.415e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625147-1UiCg5F2b1TeBMw5qrQh",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 21,
+    "query": "INVERTER จะหยุดผลิตที่ค่าแสงประมาณเท่าไหร่",
+    "label": "ce",
+    "note": "product spec (start threshold)",
+    "correct": true,
+    "elapsed_ms": 686.9999999762513,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0.01,
+        "ce": 0.99
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.3898e-05,
+    "usage": {
+      "input_tokens": 569,
+      "output_tokens": 39,
+      "cost": 2.3898e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625148-uBhm0D02TLsF2P8AUo4U",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 22,
+    "query": "ติดตั้ง Pyrano 2 ตัวในฟื้นที่ใกล้กันค่าแสงจะเท่ากันไหม",
+    "label": "ce",
+    "note": "installation procedure",
+    "correct": true,
+    "elapsed_ms": 703.0000000377186,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.97,
+        "gk": 0.02,
+        "chat": 0.01
+      },
+      "confidence": 0.96
+    },
+    "cost": 2.4402e-05,
+    "usage": {
+      "input_tokens": 581,
+      "output_tokens": 39,
+      "cost": 2.4402e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625148-DtKVom3i82NM3tZDffDj",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 23,
+    "query": "เราจะรู้ได้ไง ว่าfuse เสื่อมหรือไม่เสื่อม",
+    "label": "ce",
+    "note": "inspection procedure",
+    "correct": true,
+    "elapsed_ms": 671.9999999622814,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.3982e-05,
+    "usage": {
+      "input_tokens": 571,
+      "output_tokens": 39,
+      "cost": 2.3982e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625149-VOW2FQ5rdX58HbwxAdy8",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 24,
+    "query": "Fuse DC เสื่อมทำให้ร้อนได้ไหม",
+    "label": "ce",
+    "note": "technical explanation",
+    "correct": true,
+    "elapsed_ms": 672.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "gk": 0,
+        "chat": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3352e-05,
+    "usage": {
+      "input_tokens": 556,
+      "output_tokens": 39,
+      "cost": 2.3352e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625150-C9TdqkBjNsuaZ5JjZLz0",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 25,
+    "query": "ยี่ห้อ Fuse มีผลไหม",
+    "label": "ce",
+    "note": "technical info",
+    "correct": true,
+    "elapsed_ms": 750.0,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.16,
+        "ce": 0.8,
+        "gk": 0.04
+      },
+      "confidence": 0.7
+    },
+    "cost": 2.2974e-05,
+    "usage": {
+      "input_tokens": 547,
+      "output_tokens": 39,
+      "cost": 2.2974e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625150-j8Jk5IOY7T6u45vSICIg",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 26,
+    "query": "วิธีคำนวณการใช้ fuse",
+    "label": "ce",
+    "note": "calculation procedure",
+    "correct": true,
+    "elapsed_ms": 702.9999999795109,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.3016e-05,
+    "usage": {
+      "input_tokens": 548,
+      "output_tokens": 39,
+      "cost": 2.3016e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625151-d1xlWALM5PyNMK7d7KsY",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 27,
+    "query": "optimizer ส่งค่าขาดๆหายๆเกิดจากอะไร",
+    "label": "ce",
+    "note": "troubleshooting (cause)",
+    "correct": true,
+    "elapsed_ms": 719.0000000409782,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "chat": 0,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3478e-05,
+    "usage": {
+      "input_tokens": 559,
+      "output_tokens": 39,
+      "cost": 2.3478e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625152-Nfbq27XoivR6vtwpYQ3m",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 28,
+    "query": "optimizer ส่งค่าขาดๆหายๆ ต้องแก้ยังไง",
+    "label": "ce",
+    "note": "repair procedure",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3562e-05,
+    "usage": {
+      "input_tokens": 561,
+      "output_tokens": 39,
+      "cost": 2.3562e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625153-ETNMU5EeD81wlqQeLjvI",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 29,
+    "query": "computer ขึ้น PowerShell เกิดจากอะไร",
+    "label": "chat",
+    "note": "non-solar, general IT",
+    "correct": true,
+    "elapsed_ms": 780.9999999590218,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0,
+        "ce": 0.17,
+        "chat": 0.83
+      },
+      "confidence": 0.74
+    },
+    "cost": 2.3268e-05,
+    "usage": {
+      "input_tokens": 554,
+      "output_tokens": 39,
+      "cost": 2.3268e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625153-ErSUsV4lrqiQqwLtprCI",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 30,
+    "query": "โครงการ CPF22 DC ศูนย์กระจายสินค้า ล้างแผงล่าสุดวันไหน",
+    "label": "gk",
+    "note": "project-specific maintenance record",
+    "correct": true,
+    "elapsed_ms": 688.0000000237487,
+    "predicted": "gk",
+    "answer": {
+      "type": "choice",
+      "choice": "gk",
+      "probabilities": {
+        "gk": 1,
+        "ce": 0,
+        "chat": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.4402e-05,
+    "usage": {
+      "input_tokens": 581,
+      "output_tokens": 40,
+      "cost": 2.4402e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625154-wsLgicmGU6RgwMOVzbgK",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 31,
+    "query": "huawei ตั้ง limited power grid กับ remote communication Scheduling ต่างกันยังไง",
+    "label": "ce",
+    "note": "product configuration comparison",
+    "correct": true,
+    "elapsed_ms": 827.9999999795109,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.99,
+        "gk": 0.01,
+        "chat": 0
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.3394e-05,
+    "usage": {
+      "input_tokens": 557,
+      "output_tokens": 39,
+      "cost": 2.3394e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625155-uiuuVZxLfWHLPAyn08LX",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 32,
+    "query": "Inverter sungrow 60ktl alarm code012 แก้ไขอย่างไร",
+    "label": "ce",
+    "note": "alarm code troubleshooting",
+    "correct": true,
+    "elapsed_ms": 750.0,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.352e-05,
+    "usage": {
+      "input_tokens": 560,
+      "output_tokens": 39,
+      "cost": 2.352e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625156-A0pQRvliyRprEKP4qxL6",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 33,
+    "query": "Inverter sungrow 60ktl alarm code 039",
+    "label": "ce",
+    "note": "alarm code lookup",
+    "correct": true,
+    "elapsed_ms": 703.0000000377186,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "chat": 0,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3016e-05,
+    "usage": {
+      "input_tokens": 548,
+      "output_tokens": 39,
+      "cost": 2.3016e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625156-Hr5dFKKR4HWXlv3PcAgf",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 34,
+    "query": "อธิบายหลักการ limit ของ inverter เกิดจากสาเหตุอะไรได้บ้าง",
+    "label": "ce",
+    "note": "technical explanation",
+    "correct": true,
+    "elapsed_ms": 843.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0.01,
+        "ce": 0.99
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.415e-05,
+    "usage": {
+      "input_tokens": 575,
+      "output_tokens": 39,
+      "cost": 2.415e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625157-GLOSD9QT4AbGbzbqLKPf",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 35,
+    "query": "Wiring CT for meter&EDMI",
+    "label": "ce",
+    "note": "wiring procedure",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.268e-05,
+    "usage": {
+      "input_tokens": 540,
+      "output_tokens": 39,
+      "cost": 2.268e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625158-4nDlLIab6KJhfdyM32cZ",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 36,
+    "query": "Daigram CT for meter&EDMI",
+    "label": "ce",
+    "note": "technical diagram",
+    "correct": true,
+    "elapsed_ms": 702.9999999795109,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.71,
+        "chat": 0.01,
+        "gk": 0.28
+      },
+      "confidence": 0.56
+    },
+    "cost": 2.2722e-05,
+    "usage": {
+      "input_tokens": 541,
+      "output_tokens": 39,
+      "cost": 2.2722e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625159-dEUEybik6zOOkHr9ChXN",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 37,
+    "query": "การต่อ CT เข้า Meter 2 ตัว",
+    "label": "ce",
+    "note": "wiring procedure",
+    "correct": true,
+    "elapsed_ms": 704.0000000270084,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.2848e-05,
+    "usage": {
+      "input_tokens": 544,
+      "output_tokens": 39,
+      "cost": 2.2848e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625159-GTOUDuIEaA2K57jBEFiJ",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 38,
+    "query": "วงจรการต่อ CT 3 เฟส เข้าMeter 2 ตัว",
+    "label": "ce",
+    "note": "wiring circuit",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.01,
+        "ce": 0.99,
+        "gk": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3478e-05,
+    "usage": {
+      "input_tokens": 559,
+      "output_tokens": 39,
+      "cost": 2.3478e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625160-NfGEqrAdxmJU5MH6Sa6x",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 39,
+    "query": "RS485หัวDB9ใช้ขาที่เท่าไร",
+    "label": "ce",
+    "note": "connector pinout spec",
+    "correct": true,
+    "elapsed_ms": 686.9999999762513,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.93,
+        "chat": 0.07,
+        "gk": 0
+      },
+      "confidence": 0.89
+    },
+    "cost": 2.331e-05,
+    "usage": {
+      "input_tokens": 555,
+      "output_tokens": 39,
+      "cost": 2.331e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625161-ZbSrLLtPQpT0tBYCe9Sv",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 40,
+    "query": "หลักการทำงานของ Aux relay",
+    "label": "ce",
+    "note": "technical explanation",
+    "correct": true,
+    "elapsed_ms": 797.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3058e-05,
+    "usage": {
+      "input_tokens": 549,
+      "output_tokens": 39,
+      "cost": 2.3058e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625162-gPCHvYmCzFvpoiY1RF81",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 41,
+    "query": "เราเรื่องตลกให้ฟังหน่อย หนึ่งเรื่อง",
+    "label": "chat",
+    "note": "joke request",
+    "correct": true,
+    "elapsed_ms": 702.9999999795109,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "ce": 0,
+        "chat": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3814e-05,
+    "usage": {
+      "input_tokens": 567,
+      "output_tokens": 39,
+      "cost": 2.3814e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625162-WLay4qd7E3TWcTl5exaq",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 42,
+    "query": "ไม่ตลกเลย",
+    "label": "chat",
+    "note": "reaction",
+    "correct": true,
+    "elapsed_ms": 735.0000000442378,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0,
+        "ce": 0.01,
+        "chat": 0.99
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.2722e-05,
+    "usage": {
+      "input_tokens": 541,
+      "output_tokens": 39,
+      "cost": 2.2722e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625163-AjbVVsbvk9RdSWrNM4Lj",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 43,
+    "query": "Inverter Huawei 50KTL Alarm Low Insulation Resistance เกิดจากอะไร ต้องตรวจเช็คอะไรบ้าง",
+    "label": "ce",
+    "note": "alarm troubleshooting",
+    "correct": true,
+    "elapsed_ms": 702.9999999795109,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.436e-05,
+    "usage": {
+      "input_tokens": 580,
+      "output_tokens": 39,
+      "cost": 2.436e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625164-jBsgaFpn2fBzprFFaWX4",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 44,
+    "query": "Optimizer Huawei 1300W ไม่ออนไลน์เกิดจากสาเหตุใด",
+    "label": "ce",
+    "note": "troubleshooting",
+    "correct": true,
+    "elapsed_ms": 625.0,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.3772e-05,
+    "usage": {
+      "input_tokens": 566,
+      "output_tokens": 39,
+      "cost": 2.3772e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625164-IR6lgBFBEqv5Dq5pijxl",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 45,
+    "query": "ถ้า Inverter Huawei 50KTL Alarm Low Insulation Resistance 1 String แล้ว Stringที่ปกติ จะผลิตพลังต่อได้หรือไม่",
+    "label": "ce",
+    "note": "product operation under fault",
+    "correct": true,
+    "elapsed_ms": 686.9999999762513,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.4654e-05,
+    "usage": {
+      "input_tokens": 587,
+      "output_tokens": 39,
+      "cost": 2.4654e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625165-UB3CeVtQNwWO5AFYcmEB",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 46,
+    "query": "ไก่กับไข่อะไรเกิดก่อนกัน",
+    "label": "chat",
+    "note": "general knowledge",
+    "correct": true,
+    "elapsed_ms": 672.0000000204891,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "chat": 1,
+        "ce": 0,
+        "gk": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3352e-05,
+    "usage": {
+      "input_tokens": 556,
+      "output_tokens": 39,
+      "cost": 2.3352e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625166-ixsyQcLTPdroplDrHddb",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 47,
+    "query": "เพลง little wing ใครเป็นคนคิดคนแรก",
+    "label": "chat",
+    "note": "music trivia",
+    "correct": true,
+    "elapsed_ms": 688.0000000237487,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0,
+        "chat": 1,
+        "ce": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3226e-05,
+    "usage": {
+      "input_tokens": 553,
+      "output_tokens": 39,
+      "cost": 2.3226e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625166-R0UUWWh8K0WDtXuSnJSi",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 48,
+    "query": "แค่นี้ก็ไม่รู้หรอ",
+    "label": "chat",
+    "note": "reaction",
+    "correct": true,
+    "elapsed_ms": 686.9999999762513,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0.01,
+        "ce": 0.16,
+        "chat": 0.83
+      },
+      "confidence": 0.74
+    },
+    "cost": 2.3058e-05,
+    "usage": {
+      "input_tokens": 549,
+      "output_tokens": 39,
+      "cost": 2.3058e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625167-nH9azkM7RTL9Wbpsd5aR",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 49,
+    "query": "หากเกิด Harmonic ในระบบไฟฟ้า สามารถตรวจสอบหรือมีแนวทางแก้ไขอย่างไร",
+    "label": "ce",
+    "note": "procedure (harmonic check/fix)",
+    "correct": true,
+    "elapsed_ms": 657.0000000065193,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.4822e-05,
+    "usage": {
+      "input_tokens": 591,
+      "output_tokens": 39,
+      "cost": 2.4822e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625168-5xjJo6IhjM4rtkXViIk2",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 50,
+    "query": "การตรวจสอบลงกราวด์ของโซลาร์เซลล์",
+    "label": "ce",
+    "note": "inspection procedure",
+    "correct": true,
+    "elapsed_ms": 765.0000000139698,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "gk": 0,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3688e-05,
+    "usage": {
+      "input_tokens": 564,
+      "output_tokens": 39,
+      "cost": 2.3688e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625169-F0WkVFw3vRWmjyGgNytc",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 51,
+    "query": "M-Bus Protocol  คืออะไร",
+    "label": "ce",
+    "note": "technical definition",
+    "correct": true,
+    "elapsed_ms": 687.9999999655411,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0.07,
+        "ce": 0.93
+      },
+      "confidence": 0.88
+    },
+    "cost": 2.289e-05,
+    "usage": {
+      "input_tokens": 545,
+      "output_tokens": 39,
+      "cost": 2.289e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625169-pBTGUq4gVjGINgCUMUBD",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 52,
+    "query": "วิธีการเปลี่ยน ADAM",
+    "label": "ce",
+    "note": "replacement procedure",
+    "correct": true,
+    "elapsed_ms": 858.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0.01,
+        "ce": 0.99
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.3016e-05,
+    "usage": {
+      "input_tokens": 548,
+      "output_tokens": 39,
+      "cost": 2.3016e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625170-0MepsWmoNvffkknVgToU",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 53,
+    "query": "วีธีการทดสอบ Modbus",
+    "label": "ce",
+    "note": "testing procedure",
+    "correct": true,
+    "elapsed_ms": 1078.0000000377186,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.2932e-05,
+    "usage": {
+      "input_tokens": 546,
+      "output_tokens": 39,
+      "cost": 2.2932e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625171-rc62YLVqxtgeXRGHDr0r",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 54,
+    "query": "ตรวจสอบ modbus edmi meter",
+    "label": "ce",
+    "note": "testing procedure",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.2848e-05,
+    "usage": {
+      "input_tokens": 544,
+      "output_tokens": 39,
+      "cost": 2.2848e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625172-rWXFyJ9neWlYFQiTBBgY",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 55,
+    "query": "ABB Alarm E032",
+    "label": "ce",
+    "note": "alarm code lookup",
+    "correct": true,
+    "elapsed_ms": 672.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.2596e-05,
+    "usage": {
+      "input_tokens": 538,
+      "output_tokens": 39,
+      "cost": 2.2596e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625173-eu7IgT5PZX5aSjMUnvn5",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 56,
+    "query": "วิธีการแก้ไข",
+    "label": "ce",
+    "note": "repair procedure (continuation of #55)",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.2848e-05,
+    "usage": {
+      "input_tokens": 544,
+      "output_tokens": 39,
+      "cost": 2.2848e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625173-a6Kk37wR0GLCJAkRWFSb",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 57,
+    "query": "Alarm Isulation low huawei",
+    "label": "ce",
+    "note": "alarm troubleshooting",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.2638e-05,
+    "usage": {
+      "input_tokens": 539,
+      "output_tokens": 39,
+      "cost": 2.2638e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625174-0OZGZj1Bp61dQoq6RFzR",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 58,
+    "query": "หัวข้อของเล่ม PM Report มีอะไรบ้าง",
+    "label": "gk",
+    "note": "PM report topics = maintenance record structure",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "gk",
+    "answer": {
+      "type": "choice",
+      "choice": "gk",
+      "probabilities": {
+        "gk": 0.39999999999999997,
+        "ce": 0.29,
+        "chat": 0.31
+      },
+      "confidence": 0.11
+    },
+    "cost": 2.3436e-05,
+    "usage": {
+      "input_tokens": 558,
+      "output_tokens": 40,
+      "cost": 2.3436e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625175-BhvKTx9GF8tfn77difzK",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 59,
+    "query": "ขอ spec inverter โครงการอ่างทอง 1",
+    "label": "gk",
+    "note": "project-specific data",
+    "correct": false,
+    "elapsed_ms": 765.0000000139698,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0.43,
+        "ce": 0.57
+      },
+      "confidence": 0.35
+    },
+    "cost": 2.331e-05,
+    "usage": {
+      "input_tokens": 555,
+      "output_tokens": 39,
+      "cost": 2.331e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625175-c9QufunubaJBQXFURC7x",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 60,
+    "query": "อ่างทอง 2 ล่ะ",
+    "label": "gk",
+    "note": "project-specific data (continuation)",
+    "correct": true,
+    "elapsed_ms": 657.0000000065193,
+    "predicted": "gk",
+    "answer": {
+      "type": "choice",
+      "choice": "gk",
+      "probabilities": {
+        "ce": 0.01,
+        "chat": 0.14,
+        "gk": 0.85
+      },
+      "confidence": 0.77
+    },
+    "cost": 2.289e-05,
+    "usage": {
+      "input_tokens": 545,
+      "output_tokens": 40,
+      "cost": 2.289e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625176-J4zNkGlpVslRgYsdNIjA",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 61,
+    "query": "ขอข้อมูลโครงการ โซลาร์เซลล์ อ่างทอง 2",
+    "label": "gk",
+    "note": "project-specific data",
+    "correct": true,
+    "elapsed_ms": 670.9999999729916,
+    "predicted": "gk",
+    "answer": {
+      "type": "choice",
+      "choice": "gk",
+      "probabilities": {
+        "gk": 1,
+        "ce": 0,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3898e-05,
+    "usage": {
+      "input_tokens": 569,
+      "output_tokens": 40,
+      "cost": 2.3898e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625177-0jAS7Nhx5qldy0wOdh0X",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 62,
+    "query": "หมายถึงโครงการอ่างทอง 2 ที่จังหวัดประจวบคีรีขันธ์",
+    "label": "gk",
+    "note": "project clarification",
+    "correct": true,
+    "elapsed_ms": 688.0000000237487,
+    "predicted": "gk",
+    "answer": {
+      "type": "choice",
+      "choice": "gk",
+      "probabilities": {
+        "gk": 0.99,
+        "ce": 0,
+        "chat": 0.01
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.4402e-05,
+    "usage": {
+      "input_tokens": 581,
+      "output_tokens": 40,
+      "cost": 2.4402e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625177-HS9Q05f8GF7jMhw7IAxF",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 63,
+    "query": "inverter sun2000 40ktl code 768 เกิดจากอะไรครับ",
+    "label": "ce",
+    "note": "alarm code troubleshooting",
+    "correct": true,
+    "elapsed_ms": 656.0000000172295,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.3772e-05,
+    "usage": {
+      "input_tokens": 566,
+      "output_tokens": 39,
+      "cost": 2.3772e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625178-b34863oLulf1UdpD9cwF",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 64,
+    "query": "วิธีติดตั้ง และ Setting Smartloger SUN3000",
+    "label": "ce",
+    "note": "installation procedure",
+    "correct": true,
+    "elapsed_ms": 734.9999999860302,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "ce": 1,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3268e-05,
+    "usage": {
+      "input_tokens": 554,
+      "output_tokens": 39,
+      "cost": 2.3268e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625179-y1ooeiQBTpShuCapFCpX",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 65,
+    "query": "อินเวอร์เตอร์ทำงานได้อย่างไร",
+    "label": "ce",
+    "note": "technical explanation",
+    "correct": true,
+    "elapsed_ms": 875.0,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.352e-05,
+    "usage": {
+      "input_tokens": 560,
+      "output_tokens": 39,
+      "cost": 2.352e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625180-RVYQDILiqyrVpt224IAb",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 66,
+    "query": "SmartLogger3000 สามารถตรวจสอบ Alarm ย้อนหลังได้หรือไม่",
+    "label": "ce",
+    "note": "product capability",
+    "correct": true,
+    "elapsed_ms": 827.9999999795109,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "ce": 1,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.4108e-05,
+    "usage": {
+      "input_tokens": 574,
+      "output_tokens": 39,
+      "cost": 2.4108e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625180-xX2XAD6E3QcF44oChSPI",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 67,
+    "query": "SmartLogger3000 หากพบมีการลัดวงจรที่สตริงPV จะทำการตรวจสอบยังไง",
+    "label": "ce",
+    "note": "product procedure",
+    "correct": true,
+    "elapsed_ms": 717.9999999934807,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.4654e-05,
+    "usage": {
+      "input_tokens": 587,
+      "output_tokens": 39,
+      "cost": 2.4654e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625181-1vcvxQHt79CJvlbR2j15",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 68,
+    "query": "อธิบายมุมพระอาทิตย์ ตลอดทั้งปี สั้นๆให้หน่อย ว่าช่วงไหนอ้อมใต้ อ้อมเหนือ",
+    "label": "ce",
+    "note": "technical knowledge",
+    "correct": false,
+    "elapsed_ms": 688.0000000237487,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0.02,
+        "chat": 0.62,
+        "ce": 0.36
+      },
+      "confidence": 0.43
+    },
+    "cost": 2.5368e-05,
+    "usage": {
+      "input_tokens": 604,
+      "output_tokens": 39,
+      "cost": 2.5368e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625182-YxoIfLxb8PVOoQ87r7Px",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 69,
+    "query": "ขอรูปประกอบหน่อย ไม่เห็นภาพ",
+    "label": "chat",
+    "note": "follow-up (context-dependent, not standalone domain query)",
+    "correct": true,
+    "elapsed_ms": 781.0000000172295,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0.02,
+        "ce": 0.3,
+        "chat": 0.68
+      },
+      "confidence": 0.52
+    },
+    "cost": 2.3478e-05,
+    "usage": {
+      "input_tokens": 559,
+      "output_tokens": 39,
+      "cost": 2.3478e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625183-U4ypYwTrEZID0PyRHcZS",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 70,
+    "query": "ดูดวงได้ไหม",
+    "label": "chat",
+    "note": "fortune telling",
+    "correct": true,
+    "elapsed_ms": 687.9999999655411,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "chat": 1,
+        "ce": 0,
+        "gk": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.2806e-05,
+    "usage": {
+      "input_tokens": 543,
+      "output_tokens": 39,
+      "cost": 2.2806e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625183-DiIzXidD1WXXvGnUo4qE",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 71,
+    "query": "วิเคราะห์ระบบ Pump น้ำ ให้หน่อย มอเตอร์ขนาด 4 Bar ควรเติมลมถังอัดแรงดันกี่ PSI",
+    "label": "chat",
+    "note": "non-solar (water pump system)",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0.67,
+        "ce": 0.33
+      },
+      "confidence": 0.5
+    },
+    "cost": 2.5074e-05,
+    "usage": {
+      "input_tokens": 597,
+      "output_tokens": 39,
+      "cost": 2.5074e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625184-Z2Oxe4XQZga0CMAp0uxB",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 72,
+    "query": "หมายถึงการเติมลมถังอัดแรงดันในระบบปั๊มน้ำหมายถึงการเติมลมถังอัดแรงดันในระบบปั๊มน้ำ",
+    "label": "chat",
+    "note": "non-solar continuation",
+    "correct": false,
+    "elapsed_ms": 1172.000000020489,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0.41,
+        "ce": 0.59
+      },
+      "confidence": 0.37
+    },
+    "cost": 2.5788e-05,
+    "usage": {
+      "input_tokens": 614,
+      "output_tokens": 39,
+      "cost": 2.5788e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625185-cJlvvm8krHyRd8lwcHq8",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 73,
+    "query": "สามารถคำนวณสามารถคำนวณระยะการเดินท่อน้ำได้ไหมว่าควรต้องเดินกี่นิ้ว",
+    "label": "chat",
+    "note": "non-solar (pipe sizing)",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0,
+        "ce": 0.12,
+        "chat": 0.88
+      },
+      "confidence": 0.82
+    },
+    "cost": 2.5116e-05,
+    "usage": {
+      "input_tokens": 598,
+      "output_tokens": 39,
+      "cost": 2.5116e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625186-dp2tHQVeQ6tO2GkbyH9o",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 74,
+    "query": "inverter Huawei 50KTL พัดลมระอากาศมีกี่ตัว",
+    "label": "ce",
+    "note": "product spec",
+    "correct": true,
+    "elapsed_ms": 782.0000000065193,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0.01,
+        "ce": 0.99
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3604e-05,
+    "usage": {
+      "input_tokens": 562,
+      "output_tokens": 39,
+      "cost": 2.3604e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625187-sn13NygU6LkFQwPiRrj0",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 75,
+    "query": "แล้วถ้าพัดลมระบายอากาศชำรุดแล้วถ้าพัดลมระบายอากาศชำรุดหนึ่งตัวส่งผลต่อการผลิตไหม",
+    "label": "ce",
+    "note": "product operation under fault",
+    "correct": true,
+    "elapsed_ms": 765.0000000139698,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.49,
+        "gk": 0.02,
+        "ce": 0.49
+      },
+      "confidence": 0.24
+    },
+    "cost": 2.5704e-05,
+    "usage": {
+      "input_tokens": 612,
+      "output_tokens": 39,
+      "cost": 2.5704e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625188-cD1rnxOSI239b4eKnQst",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 76,
+    "query": "พัดลมระบายอากาศของตัว Inverter ทำงานงานยังไง",
+    "label": "ce",
+    "note": "technical explanation",
+    "correct": true,
+    "elapsed_ms": 1093.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.394e-05,
+    "usage": {
+      "input_tokens": 570,
+      "output_tokens": 39,
+      "cost": 2.394e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625188-rO5UmuTTmceHLRviZK9R",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 77,
+    "query": "ถ้าพัดลมระบายอากาศเสีย จะขึ้น Alarm มั้ย",
+    "label": "ce",
+    "note": "alarm behavior",
+    "correct": true,
+    "elapsed_ms": 797.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.94,
+        "chat": 0.06,
+        "gk": 0
+      },
+      "confidence": 0.91
+    },
+    "cost": 2.3814e-05,
+    "usage": {
+      "input_tokens": 567,
+      "output_tokens": 39,
+      "cost": 2.3814e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625189-xtcu4AxpvHTNd8m1EMs8",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 78,
+    "query": "How can i impress my husband?",
+    "label": "chat",
+    "note": "personal",
+    "correct": true,
+    "elapsed_ms": 764.9999999557622,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "ce": 0,
+        "chat": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.2638e-05,
+    "usage": {
+      "input_tokens": 539,
+      "output_tokens": 39,
+      "cost": 2.2638e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625190-fm7kXLJYmICllBpb5I2q",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 79,
+    "query": "Show me business improvement approach",
+    "label": "chat",
+    "note": "non-solar business",
+    "correct": true,
+    "elapsed_ms": 688.0000000237487,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0.04,
+        "ce": 0.1,
+        "chat": 0.86
+      },
+      "confidence": 0.78
+    },
+    "cost": 2.2554e-05,
+    "usage": {
+      "input_tokens": 537,
+      "output_tokens": 39,
+      "cost": 2.2554e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625191-kNVqJaXwCkCzOxXVEW2V",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 80,
+    "query": "Show me business process improvement approach?",
+    "label": "chat",
+    "note": "non-solar business",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0.01,
+        "ce": 0.1,
+        "chat": 0.89
+      },
+      "confidence": 0.84
+    },
+    "cost": 2.2638e-05,
+    "usage": {
+      "input_tokens": 539,
+      "output_tokens": 39,
+      "cost": 2.2638e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625192-D7nXYOqoFzbVijcOtC72",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 81,
+    "query": "Inverter หน้าจอโชว์ Code 2616 Ground Fault or PV MOV เเก้ไขยังไง",
+    "label": "ce",
+    "note": "alarm troubleshooting",
+    "correct": true,
+    "elapsed_ms": 703.0000000377186,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "ce": 1,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3898e-05,
+    "usage": {
+      "input_tokens": 569,
+      "output_tokens": 39,
+      "cost": 2.3898e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625192-Y4lUYjIjpsfZXd3XAvJp",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 82,
+    "query": "วิธีเช็คสายลงกราวด์",
+    "label": "ce",
+    "note": "inspection procedure",
+    "correct": true,
+    "elapsed_ms": 921.9999999622814,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3142e-05,
+    "usage": {
+      "input_tokens": 551,
+      "output_tokens": 39,
+      "cost": 2.3142e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625193-PD5A2hI3bQ4YYefPgDXZ",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 83,
+    "query": "daily report โหลดข้อมูลกราฟขึ้นErrorเกิดจากสาเหตุใด",
+    "label": "gk",
+    "note": "monitoring system issue (maintenance log platform)",
+    "correct": false,
+    "elapsed_ms": 797.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.394e-05,
+    "usage": {
+      "input_tokens": 570,
+      "output_tokens": 39,
+      "cost": 2.394e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625194-j3t5zsYsYeQMu9zowH8y",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 84,
+    "query": "มาทำงานสเเกนหน้าไม่ทัน สายไป 1 นาที โดนหักเงินไหมครับ",
+    "label": "chat",
+    "note": "personal workplace",
+    "correct": true,
+    "elapsed_ms": 656.0000000172295,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0,
+        "ce": 0.02,
+        "chat": 0.98
+      },
+      "confidence": 0.96
+    },
+    "cost": 2.4402e-05,
+    "usage": {
+      "input_tokens": 581,
+      "output_tokens": 39,
+      "cost": 2.4402e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625195-iPV7PPbXEINCDXfulBRk",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 85,
+    "query": "ขอวิธีตรวจสอบ inverter Alarm สายDC ลงGround ในทางปฎิบัติและตรวจสอบหน่อยครับ วิธีการวัดค่าต่างๆ",
+    "label": "ce",
+    "note": "practical procedure",
+    "correct": true,
+    "elapsed_ms": 827.9999999795109,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "gk": 0,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.5662e-05,
+    "usage": {
+      "input_tokens": 611,
+      "output_tokens": 39,
+      "cost": 2.5662e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625196-6xA5Qckd3rEb355Rn4Ru",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 86,
+    "query": "ขอดูตัวอย่าง Report  หรือ รายงาน หน่อยครับ",
+    "label": "gk",
+    "note": "report example = maintenance report request",
+    "correct": true,
+    "elapsed_ms": 686.9999999762513,
+    "predicted": "gk",
+    "answer": {
+      "type": "choice",
+      "choice": "gk",
+      "probabilities": {
+        "gk": 0.51,
+        "chat": 0.35,
+        "ce": 0.14
+      },
+      "confidence": 0.26
+    },
+    "cost": 2.3688e-05,
+    "usage": {
+      "input_tokens": 564,
+      "output_tokens": 40,
+      "cost": 2.3688e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625196-8KRlxBnQ9Cs1knaw8N1t",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 87,
+    "query": "Inverter มีกี่ประเภท",
+    "label": "ce",
+    "note": "product info",
+    "correct": true,
+    "elapsed_ms": 813.0000000237487,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.97,
+        "chat": 0,
+        "gk": 0.03
+      },
+      "confidence": 0.95
+    },
+    "cost": 2.2974e-05,
+    "usage": {
+      "input_tokens": 547,
+      "output_tokens": 39,
+      "cost": 2.2974e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625197-7MIjxk4dw9m2JZ39oQo9",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 88,
+    "query": "อากาศร้อน inverter ชนิดไหนเหมาะแก่การนำมาใช้",
+    "label": "ce",
+    "note": "product recommendation",
+    "correct": true,
+    "elapsed_ms": 656.0000000172295,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.29,
+        "ce": 0.7,
+        "gk": 0.01
+      },
+      "confidence": 0.56
+    },
+    "cost": 2.394e-05,
+    "usage": {
+      "input_tokens": 570,
+      "output_tokens": 39,
+      "cost": 2.394e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625198-epZQHHOD1zfrNYIkVFlX",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 89,
+    "query": "Inverter ทำหน้าที่อะไร",
+    "label": "ce",
+    "note": "technical explanation",
+    "correct": true,
+    "elapsed_ms": 702.9999999795109,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "ce": 1,
+        "chat": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3058e-05,
+    "usage": {
+      "input_tokens": 549,
+      "output_tokens": 39,
+      "cost": 2.3058e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625198-SkbKWPrK2Au83CdvGKzr",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 90,
+    "query": "ขอคู่มือการใช้งาน Function line ของ CPFหน่อยครับ",
+    "label": "ce",
+    "note": "manual request",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.05,
+        "chat": 0,
+        "ce": 0.95
+      },
+      "confidence": 0.92
+    },
+    "cost": 2.3604e-05,
+    "usage": {
+      "input_tokens": 562,
+      "output_tokens": 39,
+      "cost": 2.3604e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625199-KuGNki2DApZtMl4z6wnk",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 91,
+    "query": "fault code ที่ทำไว้มีกี่ fault code ครับ มีอะไรบ้าง",
+    "label": "ce",
+    "note": "fault code reference",
+    "correct": true,
+    "elapsed_ms": 797.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.99,
+        "chat": 0,
+        "gk": 0.01
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3772e-05,
+    "usage": {
+      "input_tokens": 566,
+      "output_tokens": 39,
+      "cost": 2.3772e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625200-NCUVBvckNcQVaPN922Lb",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 92,
+    "query": "การเลือกฟิวส์ ของแผงsolar cell ในคู่มือระบุ กี่A ของรูปตัวอย่างด้วยครับ",
+    "label": "ce",
+    "note": "manual lookup",
+    "correct": true,
+    "elapsed_ms": 750.0,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.01,
+        "ce": 0.99,
+        "chat": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.5032e-05,
+    "usage": {
+      "input_tokens": 596,
+      "output_tokens": 39,
+      "cost": 2.5032e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625201-sFd1FyNtSZt1z0SSpIVx",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 93,
+    "query": "แรงดันที่อินเวอเตอร์เริ่มผลิตไฟได้",
+    "label": "ce",
+    "note": "product spec",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0.01,
+        "ce": 0.99
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.3772e-05,
+    "usage": {
+      "input_tokens": 566,
+      "output_tokens": 39,
+      "cost": 2.3772e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625201-ckpYtXhhqxCJgGwsCYlb",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 94,
+    "query": "เมื่อเกิด Alarm เกี่ยวกับความถี่สูงจะต้องตรวจสอบอะไรบ้าง",
+    "label": "ce",
+    "note": "troubleshooting procedure",
+    "correct": true,
+    "elapsed_ms": 656.0000000172295,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.4486e-05,
+    "usage": {
+      "input_tokens": 583,
+      "output_tokens": 39,
+      "cost": 2.4486e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625202-w1ywWR33QyryISV9Cw7c",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 95,
+    "query": "เมื่อพบว่ามีกระแสไหลรั่วลงกาวอินเวอร์เตอร์จะ error ว่าอย่างไร",
+    "label": "ce",
+    "note": "alarm behavior",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "chat": 0,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.4696e-05,
+    "usage": {
+      "input_tokens": 588,
+      "output_tokens": 39,
+      "cost": 2.4696e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625203-d9bwl1BdRrteAenPg9kk",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 96,
+    "query": "ถ้าไฟAlamโชว์แล้วจู่ๆก็หายไปเอง เป็เพราะอะไร",
+    "label": "ce",
+    "note": "troubleshooting",
+    "correct": true,
+    "elapsed_ms": 702.9999999795109,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "ce": 1,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.4108e-05,
+    "usage": {
+      "input_tokens": 574,
+      "output_tokens": 39,
+      "cost": 2.4108e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625204-7XLi3nOaGc9iGf7DOzS6",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 97,
+    "query": "อินเวอรเติร์ ABB",
+    "label": "ce",
+    "note": "product info",
+    "correct": true,
+    "elapsed_ms": 1188.0000000237487,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.02,
+        "gk": 0.02,
+        "ce": 0.96
+      },
+      "confidence": 0.95
+    },
+    "cost": 2.289e-05,
+    "usage": {
+      "input_tokens": 545,
+      "output_tokens": 39,
+      "cost": 2.289e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625205-0prGxPjuTNmy6a1OeA8u",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 98,
+    "query": "ราคาเเผงปัจจุบัน",
+    "label": "chat",
+    "note": "price inquiry (not from manual or maintenance log)",
+    "correct": true,
+    "elapsed_ms": 827.9999999795109,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0.3,
+        "ce": 0.18,
+        "chat": 0.52
+      },
+      "confidence": 0.28
+    },
+    "cost": 2.3016e-05,
+    "usage": {
+      "input_tokens": 548,
+      "output_tokens": 39,
+      "cost": 2.3016e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625206-ucGlvXpXlcm6mWIBCikk",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 99,
+    "query": "Rapid Shutdown ต่างกับ Optimizer อย่างไร",
+    "label": "ce",
+    "note": "technical comparison",
+    "correct": true,
+    "elapsed_ms": 719.0000000409782,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0.01,
+        "ce": 0.99
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3268e-05,
+    "usage": {
+      "input_tokens": 554,
+      "output_tokens": 39,
+      "cost": 2.3268e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625206-z5ZPlMG8iiSEnqa9R9ss",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 100,
+    "query": "Beaker 32 A ควรใช้สายขนาดเท่าไร",
+    "label": "ce",
+    "note": "cable sizing spec",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.17,
+        "chat": 0.01,
+        "ce": 0.82
+      },
+      "confidence": 0.74
+    },
+    "cost": 2.3436e-05,
+    "usage": {
+      "input_tokens": 558,
+      "output_tokens": 39,
+      "cost": 2.3436e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625207-gmS4lHI2KjK67XsPhzJo",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 101,
+    "query": "แผงโซลาร์เซลล์แตกแต่ไม่พบรอยของแข็งตกใส่เกิดจากสาเหตุใด",
+    "label": "ce",
+    "note": "failure mode explanation (technical, not project-specific data)",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.01,
+        "ce": 0.98,
+        "gk": 0.01
+      },
+      "confidence": 0.97
+    },
+    "cost": 2.4654e-05,
+    "usage": {
+      "input_tokens": 587,
+      "output_tokens": 39,
+      "cost": 2.4654e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625208-p5EgYac74Fy4f2S2YWr7",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 102,
+    "query": "huawei smart logger 3000a default ip",
+    "label": "ce",
+    "note": "product spec",
+    "correct": true,
+    "elapsed_ms": 686.9999999762513,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "ce": 1,
+        "chat": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.2848e-05,
+    "usage": {
+      "input_tokens": 544,
+      "output_tokens": 39,
+      "cost": 2.2848e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625208-AOEjZAVZZ32vFmXDzBmu",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 103,
+    "query": "Inverter ABB PVS-100-TL ขึ้น Alarm E006 แนวทางการตรวจเช็คและแก้ไข",
+    "label": "ce",
+    "note": "alarm troubleshooting",
+    "correct": true,
+    "elapsed_ms": 719.0000000409782,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.436e-05,
+    "usage": {
+      "input_tokens": 580,
+      "output_tokens": 39,
+      "cost": 2.436e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625209-bIQZ8dglIWzTGsTLAToU",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 104,
+    "query": "สาย PV 6 Sq.mm ควรทดสอบ Insulation test ที่แรงดันเท่าไร",
+    "label": "ce",
+    "note": "testing procedure",
+    "correct": true,
+    "elapsed_ms": 796.9999999622814,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3814e-05,
+    "usage": {
+      "input_tokens": 567,
+      "output_tokens": 39,
+      "cost": 2.3814e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625210-H6K6lMMaplkH78bEuPg4",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 105,
+    "query": "สาย PV 4 Sq.mm ควรทดสอบ Insulation test ที่แรงดันเท่าไร",
+    "label": "ce",
+    "note": "testing procedure",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3814e-05,
+    "usage": {
+      "input_tokens": 567,
+      "output_tokens": 39,
+      "cost": 2.3814e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625211-FQbqNNlfsvGD40CevyLD",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 106,
+    "query": "Fluke1587 Insulation test สายโดยไม่ปลดแผงโซลาร์เซลล์ได้หรือไม่",
+    "label": "ce",
+    "note": "equipment procedure",
+    "correct": true,
+    "elapsed_ms": 672.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "gk": 0,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.4318e-05,
+    "usage": {
+      "input_tokens": 579,
+      "output_tokens": 39,
+      "cost": 2.4318e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625211-pgftrndoVyd09WOq1szh",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 107,
+    "query": "เครื่องวัดชนิดใดบ้างที่สามารถทอสอบ Insulation test สายโดยไม่ปลดแผงโซลาร์เซลล์ได้",
+    "label": "ce",
+    "note": "equipment info",
+    "correct": true,
+    "elapsed_ms": 688.0000000237487,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "ce": 1,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.52e-05,
+    "usage": {
+      "input_tokens": 600,
+      "output_tokens": 39,
+      "cost": 2.52e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625212-CfdjDrkcV9grw8q8EnR6",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 108,
+    "query": "เครื่องทดสอบ Insulation test ที่สามารถวัดแรงดัน DC ได้ 1500 V",
+    "label": "ce",
+    "note": "equipment spec",
+    "correct": true,
+    "elapsed_ms": 843.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.02,
+        "ce": 0.98,
+        "gk": 0
+      },
+      "confidence": 0.97
+    },
+    "cost": 2.415e-05,
+    "usage": {
+      "input_tokens": 575,
+      "output_tokens": 39,
+      "cost": 2.415e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625213-BJWZ5KMt4URK6wPwexiD",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 109,
+    "query": "meter ที่สามารถวัดแรงดันได้ 1500 V มีรุ่นไหนบ้าง",
+    "label": "ce",
+    "note": "equipment info",
+    "correct": true,
+    "elapsed_ms": 717.9999999934807,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.03,
+        "ce": 0.96,
+        "gk": 0.01
+      },
+      "confidence": 0.95
+    },
+    "cost": 2.415e-05,
+    "usage": {
+      "input_tokens": 575,
+      "output_tokens": 39,
+      "cost": 2.415e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625214-EyhOye9kQVywSMHHDBdu",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 110,
+    "query": "Multimeter ที่สามารถวัดแรงดัน DC ได้ถึง 1500 V มีรุ่นไหนบ้าง",
+    "label": "ce",
+    "note": "equipment info",
+    "correct": true,
+    "elapsed_ms": 672.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.06,
+        "gk": 0.01,
+        "ce": 0.93
+      },
+      "confidence": 0.9
+    },
+    "cost": 2.4444e-05,
+    "usage": {
+      "input_tokens": 582,
+      "output_tokens": 39,
+      "cost": 2.4444e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625214-OFb4atVj54t7mwZwPKi8",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 111,
+    "query": "รุ่นของ Multimeter ที่สามารถวัดแรงดัน DC ได้ถึง 1500 V มีรุ่นไหนบ้าง",
+    "label": "ce",
+    "note": "equipment info (duplicate of #110)",
+    "correct": true,
+    "elapsed_ms": 687.9999999655411,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.01,
+        "chat": 0.11,
+        "ce": 0.88
+      },
+      "confidence": 0.83
+    },
+    "cost": 2.4738e-05,
+    "usage": {
+      "input_tokens": 589,
+      "output_tokens": 39,
+      "cost": 2.4738e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625215-BwCiAgBNVKMcnqs4BDNY",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 112,
+    "query": "การแก้ไข Inverter Alarm E018",
+    "label": "ce",
+    "note": "alarm troubleshooting",
+    "correct": true,
+    "elapsed_ms": 687.0000000344589,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.3016e-05,
+    "usage": {
+      "input_tokens": 548,
+      "output_tokens": 39,
+      "cost": 2.3016e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625216-ST6NTwFfqdCPxfCH9bzQ",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 113,
+    "query": "สาย PV 6 Sq.mm ค่าทดสอบ Insulation test ไม่ควรต่ำกว่าเท่าไร",
+    "label": "ce",
+    "note": "testing criteria",
+    "correct": true,
+    "elapsed_ms": 1062.999999965541,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "gk": 0,
+        "ce": 1
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.3982e-05,
+    "usage": {
+      "input_tokens": 571,
+      "output_tokens": 39,
+      "cost": 2.3982e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625216-bEXzRMv4MzgRGoKbotPS",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 114,
+    "query": "เครื่อง Iso-test วัดค่าฉนวนสาย PV 6 Sq.mm ควรตั้งค่า Lim. เท่าไร",
+    "label": "ce",
+    "note": "testing procedure",
+    "correct": true,
+    "elapsed_ms": 717.9999999934807,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0,
+        "ce": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.4108e-05,
+    "usage": {
+      "input_tokens": 574,
+      "output_tokens": 39,
+      "cost": 2.4108e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625217-uVW5P7I7l7TBq9xKmopc",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 115,
+    "query": "เครื่อง PV-Isotest ควรตั้งค่า Lim. เพื่อ วัดค่าฉนวนสาย PV 6 Sq.mm เท่าไร",
+    "label": "ce",
+    "note": "testing procedure",
+    "correct": true,
+    "elapsed_ms": 704.0000000270084,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "ce": 1,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.4234e-05,
+    "usage": {
+      "input_tokens": 577,
+      "output_tokens": 39,
+      "cost": 2.4234e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625218-X0zFgsADezJ9yuux9KcM",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 116,
+    "query": "กำหนด Criteria  คืออะไร",
+    "label": "ce",
+    "note": "technical definition",
+    "correct": true,
+    "elapsed_ms": 640.0000000139698,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0.24,
+        "ce": 0.75,
+        "gk": 0.01
+      },
+      "confidence": 0.63
+    },
+    "cost": 2.2974e-05,
+    "usage": {
+      "input_tokens": 547,
+      "output_tokens": 39,
+      "cost": 2.2974e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625219-jZIzjE3I7r6lNsqbgWMo",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 117,
+    "query": "Relay 7SJ8031 Siemens ตั้งค่า Exceeding ไว้ที่ 100W จะตรวจจับเจอพลังงานไฟฟ้าไหลออกที่เท่าไร",
+    "label": "ce",
+    "note": "equipment spec",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "chat": 0,
+        "ce": 1,
+        "gk": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.541e-05,
+    "usage": {
+      "input_tokens": 605,
+      "output_tokens": 39,
+      "cost": 2.541e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625219-psxF0kwmKtIBmwxtSgHL",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 118,
+    "query": "ขนาดสายคอนโทรลของตู้ ACCB",
+    "label": "ce",
+    "note": "cable sizing spec",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.99,
+        "gk": 0.01,
+        "chat": 0
+      },
+      "confidence": 0.98
+    },
+    "cost": 2.3268e-05,
+    "usage": {
+      "input_tokens": 554,
+      "output_tokens": 39,
+      "cost": 2.3268e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625220-vP0ZhTcBayhAgqFAk6wM",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 119,
+    "query": "ขนาดสายคอนโทรลของตู้ ACCB ปกติใช้ขนาดเท่าไร",
+    "label": "ce",
+    "note": "cable sizing spec (duplicate of #118)",
+    "correct": true,
+    "elapsed_ms": 766.0000000032596,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.01,
+        "chat": 0.06,
+        "ce": 0.93
+      },
+      "confidence": 0.89
+    },
+    "cost": 2.4024e-05,
+    "usage": {
+      "input_tokens": 572,
+      "output_tokens": 39,
+      "cost": 2.4024e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625221-VOxQr9lBV0HbBhRzOX91",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 120,
+    "query": "มาตรฐานค่าอุณหภูมิของ Thermoscan ควรต่างกันไม่เกินเท่าไร",
+    "label": "ce",
+    "note": "testing standard",
+    "correct": false,
+    "elapsed_ms": 766.0000000032596,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0,
+        "ce": 0.43,
+        "chat": 0.57
+      },
+      "confidence": 0.35
+    },
+    "cost": 2.4402e-05,
+    "usage": {
+      "input_tokens": 581,
+      "output_tokens": 39,
+      "cost": 2.4402e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625222-pCy4XaeORkXI4qFvB3KY",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 121,
+    "query": "าตรฐานค่าอุณหภูมิของ Thermoscan Beaker R S T ควรต่างกันไม่เกินเท่าไร",
+    "label": "ce",
+    "note": "testing standard",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 0.78,
+        "chat": 0.21,
+        "gk": 0.01
+      },
+      "confidence": 0.67
+    },
+    "cost": 2.457e-05,
+    "usage": {
+      "input_tokens": 585,
+      "output_tokens": 39,
+      "cost": 2.457e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625222-GLOmaXcIMd9Ry0mGr0wP",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 122,
+    "query": "วิธีเช็ค RAM บนคอมว่าใกล้เต็มหรือไม่ และเหลือความจำเท่าไหร่",
+    "label": "chat",
+    "note": "non-solar, general IT",
+    "correct": true,
+    "elapsed_ms": 686.9999999762513,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "ce": 0.27,
+        "gk": 0,
+        "chat": 0.73
+      },
+      "confidence": 0.6
+    },
+    "cost": 2.4696e-05,
+    "usage": {
+      "input_tokens": 588,
+      "output_tokens": 39,
+      "cost": 2.4696e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625223-aUTQMcbY7Sq309PFJp8S",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 123,
+    "query": "Inverter Self Derating คือ",
+    "label": "ce",
+    "note": "technical definition",
+    "correct": true,
+    "elapsed_ms": 672.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0,
+        "ce": 1,
+        "chat": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.2638e-05,
+    "usage": {
+      "input_tokens": 539,
+      "output_tokens": 39,
+      "cost": 2.2638e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625224-MMTeeUelSrJGgw2kjZAC",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 124,
+    "query": "ส่วนใหญ่เกิดได้ทั้งวัน หรือเฉพาะช่วงเวลาไหน",
+    "label": "ce",
+    "note": "technical context (continuation of #123)",
+    "correct": true,
+    "elapsed_ms": 734.9999999860302,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.02,
+        "chat": 0.26,
+        "ce": 0.72
+      },
+      "confidence": 0.57
+    },
+    "cost": 2.415e-05,
+    "usage": {
+      "input_tokens": 575,
+      "output_tokens": 39,
+      "cost": 2.415e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625225-tYq20td1AXSikIoYQNcb",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 125,
+    "query": "วิเคราะห์ให้หน่อยได้ไหมว่าต้องอุณหภูมิเกินเท่าไหร่ หรือแรงดันไฟฟ้าต้องต่ำหรือแรงดันไฟฟ้าต้องต่ำหรือเกินเท่าไรเหลือเกินเท่าไร",
+    "label": "ce",
+    "note": "technical analysis (continuation of #123)",
+    "correct": true,
+    "elapsed_ms": 797.0000000204891,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "chat": 0,
+        "gk": 0
+      },
+      "confidence": 0.99
+    },
+    "cost": 2.7552e-05,
+    "usage": {
+      "input_tokens": 656,
+      "output_tokens": 39,
+      "cost": 2.7552e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625225-avvkkBL0MNcnevBmZB14",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 126,
+    "query": "Inverter Huawei เช็คใน Manual ให้หน่อยได้ไหม",
+    "label": "ce",
+    "note": "manual lookup",
+    "correct": true,
+    "elapsed_ms": 733.9999999967404,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "ce": 1,
+        "chat": 0,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3478e-05,
+    "usage": {
+      "input_tokens": 559,
+      "output_tokens": 39,
+      "cost": 2.3478e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625226-z0UltVW2XuprxEq71E5z",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 127,
+    "query": "Inverter รุ่น 50K",
+    "label": "ce",
+    "note": "product model (continuation of #126)",
+    "correct": true,
+    "elapsed_ms": 702.9999999795109,
+    "predicted": "ce",
+    "answer": {
+      "type": "choice",
+      "choice": "ce",
+      "probabilities": {
+        "gk": 0.03,
+        "chat": 0.01,
+        "ce": 0.96
+      },
+      "confidence": 0.94
+    },
+    "cost": 2.268e-05,
+    "usage": {
+      "input_tokens": 540,
+      "output_tokens": 39,
+      "cost": 2.268e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625227-205QCEUS4Y6jPXi74AIq",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 128,
+    "query": "AI จะครองโลก ตามคำทำนายจริงไหม",
+    "label": "chat",
+    "note": "AI general discussion",
+    "correct": true,
+    "elapsed_ms": 703.0000000377186,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0,
+        "chat": 1,
+        "ce": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.3562e-05,
+    "usage": {
+      "input_tokens": 561,
+      "output_tokens": 39,
+      "cost": 2.3562e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625228-XM63d4PFXpXvnb5zm48S",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 129,
+    "query": "AI จะครอบงำเหล่าจะครอบงำเหล่ามนุษยชาติจริงหรือเปล่า",
+    "label": "chat",
+    "note": "AI general discussion",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "ce": 0,
+        "gk": 0,
+        "chat": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.4444e-05,
+    "usage": {
+      "input_tokens": 582,
+      "output_tokens": 39,
+      "cost": 2.4444e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625228-CtcUntt4rNH6QjWjjrNQ",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 130,
+    "query": "ถ้า AI สามารถวิเคราะห์ได้ดีกว่ามนุษย์ ผมจะตกงานไหม",
+    "label": "chat",
+    "note": "personal concern",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "ce": 0,
+        "chat": 1,
+        "gk": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.436e-05,
+    "usage": {
+      "input_tokens": 580,
+      "output_tokens": 39,
+      "cost": 2.436e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625229-be4bUO31uqGPwWeuWFxh",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 131,
+    "query": "ผมควรจะต้องจัดการกับ AI แบบได๋",
+    "label": "chat",
+    "note": "personal concern",
+    "correct": true,
+    "elapsed_ms": 890.0000000139698,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "chat": 0.92,
+        "gk": 0,
+        "ce": 0.08
+      },
+      "confidence": 0.88
+    },
+    "cost": 2.352e-05,
+    "usage": {
+      "input_tokens": 560,
+      "output_tokens": 39,
+      "cost": 2.352e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625230-uDL5DCgjPtvJKscDd4Yo",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 132,
+    "query": "ผมว่า ผมมีโอกาสตกงานแน่เลย",
+    "label": "chat",
+    "note": "personal concern",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "ce": 0,
+        "gk": 0,
+        "chat": 1
+      },
+      "confidence": 1
+    },
+    "cost": 2.3436e-05,
+    "usage": {
+      "input_tokens": 558,
+      "output_tokens": 39,
+      "cost": 2.3436e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625231-KX2RfYPZnnAX1hkhWIEH",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 133,
+    "query": "ผมรู้สึกว่าตอนนี้ผมเครียดมาก ขอมุกตลกหนึ่งมุก",
+    "label": "chat",
+    "note": "joke request",
+    "correct": true,
+    "elapsed_ms": 844.0000000409782,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0,
+        "chat": 1,
+        "ce": 0
+      },
+      "confidence": 1
+    },
+    "cost": 2.4234e-05,
+    "usage": {
+      "input_tokens": 577,
+      "output_tokens": 39,
+      "cost": 2.4234e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625231-DeMapZbTo5JB5w6bvrA6",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 134,
+    "query": "…",
+    "label": "chat",
+    "note": "filler/ellipsis",
+    "correct": true,
+    "elapsed_ms": 718.9999999827705,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "ce": 0.33,
+        "chat": 0.65,
+        "gk": 0.02
+      },
+      "confidence": 0.48
+    },
+    "cost": 2.2386e-05,
+    "usage": {
+      "input_tokens": 533,
+      "output_tokens": 39,
+      "cost": 2.2386e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625232-OKcpexSk0ociLuRrLJWl",
+    "provider": "TypeSafe"
+  },
+  {
+    "id": 135,
+    "query": "โอเค ผมว่าตอนนี้แหละที่ผมควรจะต้องไปหาหมอ",
+    "label": "chat",
+    "note": "personal",
+    "correct": true,
+    "elapsed_ms": 686.9999999762513,
+    "predicted": "chat",
+    "answer": {
+      "type": "choice",
+      "choice": "chat",
+      "probabilities": {
+        "gk": 0,
+        "chat": 0.98,
+        "ce": 0.02
+      },
+      "confidence": 0.96
+    },
+    "cost": 2.4066e-05,
+    "usage": {
+      "input_tokens": 573,
+      "output_tokens": 39,
+      "cost": 2.4066e-05
+    },
+    "model": "typesafe/jev-1.13-20260917",
+    "response_id": "gen-dec-1790625233-RtFvdej298MvkHWFX6Kl",
+    "provider": "TypeSafe"
+  }
+]

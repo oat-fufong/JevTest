@@ -1,0 +1,31 @@
+# Local test overlay for ragsha-deploy (kept outside the submodule).
+#
+# Run from JevTest/:
+#   docker compose -f ragsha-deploy/docker-compose.yml \
+#                  -f stack/docker-compose.jev.yml up -d --build
+#
+# Relative paths below resolve against the FIRST -f file's directory
+# (ragsha-deploy/), and interpolation reads ragsha-deploy/.env.
+#
+# It (1) builds the gateway from the local oat/jev-router checkout instead
+# of the deploy repo's pinned ragsha-agent, (2) forwards the Jev settings,
+# which the base compose file doesn't map, and (3) adds a stub CE.
+
+services:
+  gateway:
+    build:
+      context: ../ragsha-agent
+    environment:
+      CE_URL: http://ce-stub:7860
+      ROUTER_BACKEND: ${ROUTER_BACKEND:-jev}
+      JEV_API_URL: ${JEV_API_URL:-https://openrouter.ai/api/alpha/decisions}
+      JEV_MODEL: ${JEV_MODEL:-typesafe/jev-1.13}
+    depends_on:
+      ce-stub:
+        condition: service_started
+
+  ce-stub:
+    build:
+      context: ../stack/ce-stub
+    container_name: ragsha-ce-stub
+    restart: unless-stopped

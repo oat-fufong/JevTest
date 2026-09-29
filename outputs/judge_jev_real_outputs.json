@@ -1,0 +1,68 @@
+[
+  {
+    "id": 3,
+    "query": "ตอนนี้แผงมีกี่ชนิด",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 594.0000000118744,
+    "predicted": "ce",
+    "cost": 2.3058e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "chat"
+  },
+  {
+    "id": 15,
+    "query": "Theoretical yield คือ ค่าอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 608.9999999967404,
+    "predicted": "ce",
+    "cost": 2.2848e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "chat"
+  },
+  {
+    "id": 56,
+    "query": "วิธีการแก้ไข",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 608.9999999967404,
+    "predicted": "ce",
+    "cost": 2.2806e-05,
+    "heuristic_result": "chat",
+    "forced_llm_result": "ce"
+  },
+  {
+    "id": 68,
+    "query": "อธิบายมุมพระอาทิตย์ ตลอดทั้งปี สั้นๆให้หน่อย ว่าช่วงไหนอ้อมใต้ อ้อมเหนือ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 546.9999999913853,
+    "predicted": "ce",
+    "cost": 2.5326e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "chat"
+  },
+  {
+    "id": 90,
+    "query": "ขอคู่มือการใช้งาน Function line ของ CPFหน่อยครับ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 562.9999999946449,
+    "predicted": "ce",
+    "cost": 2.3604e-05,
+    "heuristic_result": "ce",
+    "forced_llm_result": "gk"
+  },
+  {
+    "id": 125,
+    "query": "วิเคราะห์ให้หน่อยได้ไหมว่าต้องอุณหภูมิเกินเท่าไหร่ หรือแรงดันไฟฟ้าต้องต่ำหรือแรง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 609.0000000258442,
+    "predicted": "ce",
+    "cost": 2.751e-05,
+    "heuristic_result": "chat",
+    "forced_llm_result": "ce"
+  }
+]

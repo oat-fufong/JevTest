@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 1,
+    "query": "แผง360 มีVOCเท่าไหร่ และ มีมารตรฐานอะไรบ้าง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 2,
+    "query": "แผงPV module ผลิตจากอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 3,
+    "query": "ตอนนี้แผงมีกี่ชนิด",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 4,
+    "query": "Inverter HUAWEI SUN2000-36KTL-M3 สามารถใช้งานร่วมกับ Smart Logger 1000 ได้หรือไห",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 5,
+    "query": "ควรทำยังไงให้ค่า PR ผ่านเกณฑ์",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 6,
+    "query": "คาบน้ำมันเตาที่เกาะสะสมอยู่บนแผงโซลาร์เซลล์ ควรกำจัดคาบดังกล่าวยังไง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 7,
+    "query": "ึคู่มือ Inverter HUAWEI",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 8,
+    "query": "ค่าความสูญเสียผ่านใน Inverter อยู่ที่เท่าใด",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 9,
+    "query": "ทำไม Power Optimizer SolarEdge ชอบเสียบ่อย ๆ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 10,
+    "query": "ค่า Irradiance คือค่าอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 11,
+    "query": "แปลง Irradiance W/m2 เป็น W",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 12,
+    "query": "ค่า Irradiance หน่วยเป็น W/m2 ห่างกับค่า PV Output หน่วยเป็น W เท่าใด จึงจะมีผลค",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 13,
+    "query": "Generated power คือ ค่าอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 14,
+    "query": "System efficiency คือ ค่าอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 15,
+    "query": "Theoretical yield คือ ค่าอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 16,
+    "query": "Actual yield คือ ค่าอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 17,
+    "query": "สายPV 4 sq.mm ทดแรงดันได้เท่าไหร่",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 18,
+    "query": "สายPV 4 sq.mm ทนกระแสได้มากที่สุดเท่าไหร่",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 19,
+    "query": "optimizer แรงดันขาออก ออก80V ตลอดไหม",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 20,
+    "query": "Optimizer แรงดันทั้ง String ออกไม่ถึง 80 V เกี่ยวกับแสงไหม",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 21,
+    "query": "INVERTER จะหยุดผลิตที่ค่าแสงประมาณเท่าไหร่",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 22,
+    "query": "ติดตั้ง Pyrano 2 ตัวในฟื้นที่ใกล้กันค่าแสงจะเท่ากันไหม",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 23,
+    "query": "เราจะรู้ได้ไง ว่าfuse เสื่อมหรือไม่เสื่อม",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 24,
+    "query": "Fuse DC เสื่อมทำให้ร้อนได้ไหม",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 25,
+    "query": "ยี่ห้อ Fuse มีผลไหม",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 26,
+    "query": "วิธีคำนวณการใช้ fuse",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 27,
+    "query": "optimizer ส่งค่าขาดๆหายๆเกิดจากอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 28,
+    "query": "optimizer ส่งค่าขาดๆหายๆ ต้องแก้ยังไง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 29,
+    "query": "computer ขึ้น PowerShell เกิดจากอะไร",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 30,
+    "query": "โครงการ CPF22 DC ศูนย์กระจายสินค้า ล้างแผงล่าสุดวันไหน",
+    "label": "gk",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "gk",
+    "method": "project_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 31,
+    "query": "huawei ตั้ง limited power grid กับ remote communication Scheduling ต่างกันยังไง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 32,
+    "query": "Inverter sungrow 60ktl alarm code012 แก้ไขอย่างไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 33,
+    "query": "Inverter sungrow 60ktl alarm code 039",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 34,
+    "query": "อธิบายหลักการ limit ของ inverter เกิดจากสาเหตุอะไรได้บ้าง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 35,
+    "query": "Wiring CT for meter&EDMI",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 36,
+    "query": "Daigram CT for meter&EDMI",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 37,
+    "query": "การต่อ CT เข้า Meter 2 ตัว",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 38,
+    "query": "วงจรการต่อ CT 3 เฟส เข้าMeter 2 ตัว",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 39,
+    "query": "RS485หัวDB9ใช้ขาที่เท่าไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 40,
+    "query": "หลักการทำงานของ Aux relay",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 41,
+    "query": "เราเรื่องตลกให้ฟังหน่อย หนึ่งเรื่อง",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 42,
+    "query": "ไม่ตลกเลย",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 43,
+    "query": "Inverter Huawei 50KTL Alarm Low Insulation Resistance เกิดจากอะไร ต้องตรวจเช็คอะ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 44,
+    "query": "Optimizer Huawei 1300W ไม่ออนไลน์เกิดจากสาเหตุใด",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 45,
+    "query": "ถ้า Inverter Huawei 50KTL Alarm Low Insulation Resistance 1 String แล้ว Stringที",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 46,
+    "query": "ไก่กับไข่อะไรเกิดก่อนกัน",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 47,
+    "query": "เพลง little wing ใครเป็นคนคิดคนแรก",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 48,
+    "query": "แค่นี้ก็ไม่รู้หรอ",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 49,
+    "query": "หากเกิด Harmonic ในระบบไฟฟ้า สามารถตรวจสอบหรือมีแนวทางแก้ไขอย่างไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 50,
+    "query": "การตรวจสอบลงกราวด์ของโซลาร์เซลล์",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 51,
+    "query": "M-Bus Protocol  คืออะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 52,
+    "query": "วิธีการเปลี่ยน ADAM",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 53,
+    "query": "วีธีการทดสอบ Modbus",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 54,
+    "query": "ตรวจสอบ modbus edmi meter",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 55,
+    "query": "ABB Alarm E032",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 56,
+    "query": "วิธีการแก้ไข",
+    "label": "ce",
+    "correct": false,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 57,
+    "query": "Alarm Isulation low huawei",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 58,
+    "query": "หัวข้อของเล่ม PM Report มีอะไรบ้าง",
+    "label": "gk",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "gk",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 59,
+    "query": "ขอ spec inverter โครงการอ่างทอง 1",
+    "label": "gk",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "gk",
+    "method": "project_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 60,
+    "query": "อ่างทอง 2 ล่ะ",
+    "label": "gk",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "gk",
+    "method": "project_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 61,
+    "query": "ขอข้อมูลโครงการ โซลาร์เซลล์ อ่างทอง 2",
+    "label": "gk",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "gk",
+    "method": "project_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 62,
+    "query": "หมายถึงโครงการอ่างทอง 2 ที่จังหวัดประจวบคีรีขันธ์",
+    "label": "gk",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "gk",
+    "method": "project_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 63,
+    "query": "inverter sun2000 40ktl code 768 เกิดจากอะไรครับ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 64,
+    "query": "วิธีติดตั้ง และ Setting Smartloger SUN3000",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 65,
+    "query": "อินเวอร์เตอร์ทำงานได้อย่างไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 66,
+    "query": "SmartLogger3000 สามารถตรวจสอบ Alarm ย้อนหลังได้หรือไม่",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 67,
+    "query": "SmartLogger3000 หากพบมีการลัดวงจรที่สตริงPV จะทำการตรวจสอบยังไง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 68,
+    "query": "อธิบายมุมพระอาทิตย์ ตลอดทั้งปี สั้นๆให้หน่อย ว่าช่วงไหนอ้อมใต้ อ้อมเหนือ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 69,
+    "query": "ขอรูปประกอบหน่อย ไม่เห็นภาพ",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 70,
+    "query": "ดูดวงได้ไหม",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 71,
+    "query": "วิเคราะห์ระบบ Pump น้ำ ให้หน่อย มอเตอร์ขนาด 4 Bar ควรเติมลมถังอัดแรงดันกี่ PSI",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 72,
+    "query": "หมายถึงการเติมลมถังอัดแรงดันในระบบปั๊มน้ำหมายถึงการเติมลมถังอัดแรงดันในระบบปั๊มน",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 73,
+    "query": "สามารถคำนวณสามารถคำนวณระยะการเดินท่อน้ำได้ไหมว่าควรต้องเดินกี่นิ้ว",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 74,
+    "query": "inverter Huawei 50KTL พัดลมระอากาศมีกี่ตัว",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 75,
+    "query": "แล้วถ้าพัดลมระบายอากาศชำรุดแล้วถ้าพัดลมระบายอากาศชำรุดหนึ่งตัวส่งผลต่อการผลิตไหม",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 76,
+    "query": "พัดลมระบายอากาศของตัว Inverter ทำงานงานยังไง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 77,
+    "query": "ถ้าพัดลมระบายอากาศเสีย จะขึ้น Alarm มั้ย",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 78,
+    "query": "How can i impress my husband?",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 79,
+    "query": "Show me business improvement approach",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 80,
+    "query": "Show me business process improvement approach?",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 81,
+    "query": "Inverter หน้าจอโชว์ Code 2616 Ground Fault or PV MOV เเก้ไขยังไง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 82,
+    "query": "วิธีเช็คสายลงกราวด์",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 83,
+    "query": "daily report โหลดข้อมูลกราฟขึ้นErrorเกิดจากสาเหตุใด",
+    "label": "gk",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "gk",
+    "method": "project_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 84,
+    "query": "มาทำงานสเเกนหน้าไม่ทัน สายไป 1 นาที โดนหักเงินไหมครับ",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 85,
+    "query": "ขอวิธีตรวจสอบ inverter Alarm สายDC ลงGround ในทางปฎิบัติและตรวจสอบหน่อยครับ วิธี",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 86,
+    "query": "ขอดูตัวอย่าง Report  หรือ รายงาน หน่อยครับ",
+    "label": "gk",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "gk",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 87,
+    "query": "Inverter มีกี่ประเภท",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 88,
+    "query": "อากาศร้อน inverter ชนิดไหนเหมาะแก่การนำมาใช้",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 89,
+    "query": "Inverter ทำหน้าที่อะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 90,
+    "query": "ขอคู่มือการใช้งาน Function line ของ CPFหน่อยครับ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 91,
+    "query": "fault code ที่ทำไว้มีกี่ fault code ครับ มีอะไรบ้าง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 92,
+    "query": "การเลือกฟิวส์ ของแผงsolar cell ในคู่มือระบุ กี่A ของรูปตัวอย่างด้วยครับ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 93,
+    "query": "แรงดันที่อินเวอเตอร์เริ่มผลิตไฟได้",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 94,
+    "query": "เมื่อเกิด Alarm เกี่ยวกับความถี่สูงจะต้องตรวจสอบอะไรบ้าง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 95,
+    "query": "เมื่อพบว่ามีกระแสไหลรั่วลงกาวอินเวอร์เตอร์จะ error ว่าอย่างไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 96,
+    "query": "ถ้าไฟAlamโชว์แล้วจู่ๆก็หายไปเอง เป็เพราะอะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 97,
+    "query": "อินเวอรเติร์ ABB",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 98,
+    "query": "ราคาเเผงปัจจุบัน",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 99,
+    "query": "Rapid Shutdown ต่างกับ Optimizer อย่างไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 100,
+    "query": "Beaker 32 A ควรใช้สายขนาดเท่าไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 101,
+    "query": "แผงโซลาร์เซลล์แตกแต่ไม่พบรอยของแข็งตกใส่เกิดจากสาเหตุใด",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 102,
+    "query": "huawei smart logger 3000a default ip",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 103,
+    "query": "Inverter ABB PVS-100-TL ขึ้น Alarm E006 แนวทางการตรวจเช็คและแก้ไข",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 104,
+    "query": "สาย PV 6 Sq.mm ควรทดสอบ Insulation test ที่แรงดันเท่าไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 105,
+    "query": "สาย PV 4 Sq.mm ควรทดสอบ Insulation test ที่แรงดันเท่าไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 106,
+    "query": "Fluke1587 Insulation test สายโดยไม่ปลดแผงโซลาร์เซลล์ได้หรือไม่",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 107,
+    "query": "เครื่องวัดชนิดใดบ้างที่สามารถทอสอบ Insulation test สายโดยไม่ปลดแผงโซลาร์เซลล์ได้",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 108,
+    "query": "เครื่องทดสอบ Insulation test ที่สามารถวัดแรงดัน DC ได้ 1500 V",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 109,
+    "query": "meter ที่สามารถวัดแรงดันได้ 1500 V มีรุ่นไหนบ้าง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 110,
+    "query": "Multimeter ที่สามารถวัดแรงดัน DC ได้ถึง 1500 V มีรุ่นไหนบ้าง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 111,
+    "query": "รุ่นของ Multimeter ที่สามารถวัดแรงดัน DC ได้ถึง 1500 V มีรุ่นไหนบ้าง",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 112,
+    "query": "การแก้ไข Inverter Alarm E018",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 113,
+    "query": "สาย PV 6 Sq.mm ค่าทดสอบ Insulation test ไม่ควรต่ำกว่าเท่าไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 114,
+    "query": "เครื่อง Iso-test วัดค่าฉนวนสาย PV 6 Sq.mm ควรตั้งค่า Lim. เท่าไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 115,
+    "query": "เครื่อง PV-Isotest ควรตั้งค่า Lim. เพื่อ วัดค่าฉนวนสาย PV 6 Sq.mm เท่าไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 116,
+    "query": "กำหนด Criteria  คืออะไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 117,
+    "query": "Relay 7SJ8031 Siemens ตั้งค่า Exceeding ไว้ที่ 100W จะตรวจจับเจอพลังงานไฟฟ้าไหลอ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 118,
+    "query": "ขนาดสายคอนโทรลของตู้ ACCB",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 119,
+    "query": "ขนาดสายคอนโทรลของตู้ ACCB ปกติใช้ขนาดเท่าไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 120,
+    "query": "มาตรฐานค่าอุณหภูมิของ Thermoscan ควรต่างกันไม่เกินเท่าไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 121,
+    "query": "าตรฐานค่าอุณหภูมิของ Thermoscan Beaker R S T ควรต่างกันไม่เกินเท่าไร",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 122,
+    "query": "วิธีเช็ค RAM บนคอมว่าใกล้เต็มหรือไม่ และเหลือความจำเท่าไหร่",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 123,
+    "query": "Inverter Self Derating คือ",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 124,
+    "query": "ส่วนใหญ่เกิดได้ทั้งวัน หรือเฉพาะช่วงเวลาไหน",
+    "label": "ce",
+    "correct": false,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 125,
+    "query": "วิเคราะห์ให้หน่อยได้ไหมว่าต้องอุณหภูมิเกินเท่าไหร่ หรือแรงดันไฟฟ้าต้องต่ำหรือแรง",
+    "label": "ce",
+    "correct": false,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 126,
+    "query": "Inverter Huawei เช็คใน Manual ให้หน่อยได้ไหม",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "ce_veto",
+    "cost": 0.0
+  },
+  {
+    "id": 127,
+    "query": "Inverter รุ่น 50K",
+    "label": "ce",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "ce",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 128,
+    "query": "AI จะครองโลก ตามคำทำนายจริงไหม",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 129,
+    "query": "AI จะครอบงำเหล่าจะครอบงำเหล่ามนุษยชาติจริงหรือเปล่า",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 130,
+    "query": "ถ้า AI สามารถวิเคราะห์ได้ดีกว่ามนุษย์ ผมจะตกงานไหม",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 131,
+    "query": "ผมควรจะต้องจัดการกับ AI แบบได๋",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 132,
+    "query": "ผมว่า ผมมีโอกาสตกงานแน่เลย",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 133,
+    "query": "ผมรู้สึกว่าตอนนี้ผมเครียดมาก ขอมุกตลกหนึ่งมุก",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  },
+  {
+    "id": 134,
+    "query": "…",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "keyword",
+    "cost": 0.0
+  },
+  {
+    "id": 135,
+    "query": "โอเค ผมว่าตอนนี้แหละที่ผมควรจะต้องไปหาหมอ",
+    "label": "chat",
+    "correct": true,
+    "elapsed_ms": 0.0,
+    "predicted": "chat",
+    "method": "chat_signal",
+    "cost": 0.0
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "per_category": {
+    "ce": {
+      "correct": 99,
+      "total": 102,
+      "accuracy": 0.9705882352941176
+    },
+    "gk": {
+      "correct": 8,
+      "total": 8,
+      "accuracy": 1.0
+    },
+    "chat": {
+      "correct": 25,
+      "total": 25,
+      "accuracy": 1.0
+    }
+  },
+  "overall": {
+    "correct": 132,
+    "total": 135,
+    "accuracy": 0.9777777777777777
+  },
+  "avg_latency_ms": 0.0,
+  "total_cost_usd": 0.0,
+  "avg_cost_usd": 0.0,
+  "confusion_matrix": {
+    "ce->ce": 99,
+    "ce->chat": 3,
+    "chat->chat": 25,
+    "gk->gk": 8
+  },
+  "misclassified": [
+    {
+      "id": 56,
+      "query": "วิธีการแก้ไข",
+      "label": "ce",
+      "predicted": "chat",
+      "method": "keyword",
+      "cost": 0.0
+    },
+    {
+      "id": 124,
+      "query": "ส่วนใหญ่เกิดได้ทั้งวัน หรือเฉพาะช่วงเวลาไหน",
+      "label": "ce",
+      "predicted": "chat",
+      "method": "keyword",
+      "cost": 0.0
+    },
+    {
+      "id": 125,
+      "query": "วิเคราะห์ให้หน่อยได้ไหมว่าต้องอุณหภูมิเกินเท่าไหร่ หรือแรงดันไฟฟ้าต้องต่ำหรือแรง",
+      "label": "ce",
+      "predicted": "chat",
+      "method": "keyword",
+      "cost": 0.0
+    }
+  ]
+}
